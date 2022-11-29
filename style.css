@@ -8,3 +8,10 @@ img {
 body{
     background-image: url(images/dollars.jpeg);
 }
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
