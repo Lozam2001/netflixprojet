@@ -4,6 +4,7 @@ h1 {
 }
 img {
     transform: scale(0.5);
+    text-align: center;
 }
 body{
     background-image: url(images/dollars.jpeg);
