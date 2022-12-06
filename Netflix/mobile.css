@@ -1,0 +1,33 @@
+*{
+    /* box-sizing: border-box;  */
+    /*garder les paddings*/
+}
+
+
+
+body{
+    background-color: blue;
+    
+    
+}
+/* fit cover pour toute la largeur (banniere) */
+
+.menu-none{
+    display: none;
+    /* opacity pour faire disparaitre */
+}
+
+.movies {
+    display: flex;
+    justify-content: center;
+}
+
+.movies ul {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* menu sticky */
+/* mettre élément en absolute */
+

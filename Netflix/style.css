@@ -1,0 +1,155 @@
+/* responsive mobile */
+body{
+    background-color: black;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* VERSION MOBILE */
+/* @media screen and (max-width : 900px) */
+
+header{
+    background-color: black  ;
+    
+}
+
+header nav{
+    margin: 0 auto 0 auto;
+    display: flex;
+    padding-bottom: 30px;
+    text-decoration: none;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-droite{
+    display: flex;
+    align-items: center;
+
+}
+
+.menu-droite li{
+    list-style-type: none;
+    padding-right: 20px;
+    color: white;
+}
+
+.menu-droite li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+
+}
+
+.icon-header {
+    width: 40px;
+    height: 40px;
+}
+
+.banner-netflix{
+    width: 200px;
+    height: 100px;
+}
+
+.menu-gauche{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: red;
+    padding: 10px 13px 10px 0px;
+    align-items: center;
+}
+
+.menu-gauche li img{
+    margin-left: 20px;
+}
+
+.bord-h-m{
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid red;
+    background-color: red;
+}
+
+main{
+    margin: 0 auto;
+    color: white;
+    padding-top: 50px;
+}
+
+main h1{
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: white;
+    margin-left: 20px;
+}
+
+main p{
+    line-height: 2; /* Par défaut en 'em',  */
+    font-size: 26px;
+    padding-bottom: 50px;
+    color: white;
+    margin-left: 20px;
+}
+
+.movies ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.movies ul li{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    padding: 10px;
+    
+}
+
+/* utiliser calc pour choisir nb images sur une ligne
+avec display flex, width: calc( 100% / 3); */
+
+.movies ul li:hover{
+    transform:scale(1.2);
+}
+
+.movies ul li img{
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+
+
+.boutton-regarder{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    color: red;
+    border: 2px solid red;
+    background-color: black;
+    border-radius: 50px;
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
+}
+
+.boutton-regarder:hover{
+    background-color: red;
+    color: black;
+}
