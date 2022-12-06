@@ -22,7 +22,7 @@ a{
 
 
 
-.list{
+.unordered-list li{
     display: flex;
     flex-direction: column;
     justify-content: center;
