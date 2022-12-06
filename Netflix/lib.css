@@ -1,9 +1,7 @@
-<<<<<<< Updated upstream
-=======
-lib.css
-typo : Arrial
+/* lib.css
+typo : Arrial */
 
-bouton menu
+/* bouton menu */
 .menu-droite li a{
     text-decoration: none;
     color: white;
@@ -11,7 +9,7 @@ bouton menu
 
 }
 
-bouton film 
+/* bouton film  */
 .movies ul {
     display: flex;
     flex-wrap: wrap;
@@ -37,7 +35,6 @@ bouton film
     transform:scale(1.2);
 }
 
->>>>>>> Stashed changes
 .boutton-regarder{
     margin-top: 20px;
     display: flex;
@@ -50,9 +47,6 @@ bouton film
     border-radius: 50px;
     font-weight: bold;
     padding: 10px 25px 10px 25px;
-<<<<<<< Updated upstream
-}
-=======
 }
 
 .boutton-regarder:hover{
@@ -60,7 +54,7 @@ bouton film
     color: black;
 }
 
-images 
+/* images  */
 .movies ul li img{
     width: 200px;
     height: 250px;
@@ -84,4 +78,3 @@ p{
 }
 
 
->>>>>>> Stashed changes
