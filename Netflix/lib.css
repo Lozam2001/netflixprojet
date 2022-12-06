@@ -65,7 +65,7 @@ ul li img{
     border-radius: 5px;
 }
 
-h1{
+.titre1{
     font-size: 46px;
     font-weight: bold;
     margin-bottom: 40px;
@@ -73,7 +73,7 @@ h1{
     margin-left: 20px;
 }
 
-p{
+.text{
     line-height: 2; /* Par défaut en 'em',  */
     font-size: 26px;
     padding-bottom: 50px;
