@@ -1,1 +1,13 @@
-lib.css
+.boutton-regarder{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    color: red;
+    border: 2px solid red;
+    background-color: black;
+    border-radius: 50px;
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
+}

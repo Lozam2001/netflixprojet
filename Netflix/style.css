@@ -41,7 +41,9 @@ header nav{
     text-decoration: none;
     color: white;
     font-size: 25px;
-
+}
+.menu-droite li a:hover{
+    color: red;
 }
 
 .icon-header {
