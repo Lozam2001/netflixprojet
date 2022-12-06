@@ -2,7 +2,7 @@
 typo : Arrial */
 
 /* bouton menu */
-.menu-droite li a{
+a{
     text-decoration: none;
     color: white;
     font-size: 25px;
@@ -10,7 +10,7 @@ typo : Arrial */
 }
 
 /* bouton film  */
-.movies ul {
+ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -19,7 +19,7 @@ typo : Arrial */
 
 
 
-.movies ul li{
+li{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,11 +31,11 @@ typo : Arrial */
     padding: 10px;
 }
 
-.movies ul li:hover{
+li:hover{
     transform:scale(1.2);
 }
 
-.boutton-regarder{
+.btn{
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -49,13 +49,13 @@ typo : Arrial */
     padding: 10px 25px 10px 25px;
 }
 
-.boutton-regarder:hover{
+.btn:hover{
     background-color: red;
     color: black;
 }
 
 /* images  */
-.movies ul li img{
+ul li img{
     width: 200px;
     height: 250px;
     border-radius: 5px;
