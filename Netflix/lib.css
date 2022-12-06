@@ -1,3 +1,43 @@
+<<<<<<< Updated upstream
+=======
+lib.css
+typo : Arrial
+
+bouton menu
+.menu-droite li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+
+}
+
+bouton film 
+.movies ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+
+
+.movies ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    padding: 10px;
+}
+
+.movies ul li:hover{
+    transform:scale(1.2);
+}
+
+>>>>>>> Stashed changes
 .boutton-regarder{
     margin-top: 20px;
     display: flex;
@@ -10,4 +50,38 @@
     border-radius: 50px;
     font-weight: bold;
     padding: 10px 25px 10px 25px;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+.boutton-regarder:hover{
+    background-color: red;
+    color: black;
+}
+
+images 
+.movies ul li img{
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: white;
+    margin-left: 20px;
+}
+
+p{
+    line-height: 2; /* Par défaut en 'em',  */
+    font-size: 26px;
+    padding-bottom: 50px;
+    color: white;
+    margin-left: 20px;
+}
+
+
+>>>>>>> Stashed changes
