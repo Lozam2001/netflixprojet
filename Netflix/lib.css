@@ -10,16 +10,16 @@ a{
 }
 
 /* bouton film  */
-ul {
+.unordered-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-bottom: 50px;
 }
 
 
 
-li{
+.list{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,7 +31,7 @@ li{
     padding: 10px;
 }
 
-li:hover{
+.list:hover{
     transform:scale(1.2);
 }
 
@@ -59,7 +59,7 @@ li:hover{
 }
 
 /* images  */
-ul li img{
+.card{
     width: 200px;
     height: 250px;
     border-radius: 5px;
