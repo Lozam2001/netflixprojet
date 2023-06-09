@@ -1,10 +1,7 @@
 /* lib.css
-typo : Montserrat */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+typo : Arrial */
+
 /* bouton menu */
-body{
-    font-family: 'Montserrat';
-}
 a{
     text-decoration: none;
     color: white;
@@ -13,16 +10,16 @@ a{
 }
 
 /* bouton film  */
-.unordered-list {
+ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding-bottom: 50px;
 }
 
 /* image place holder */
 
-.unordered-list li{
+li{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,18 +31,16 @@ a{
     padding: 10px;
 }
 
-.list:hover{
+li:hover{
     transform:scale(1.2);
 }
 
 .btn{
-    font-family: 'Montserrat';
     margin-top: 20px;
     display: flex;
     justify-content: center;
     text-decoration: none;
     text-align: center;
-    font-size: 1em;
     color: red;
     border: 2px solid red;
     background-color: black;
@@ -53,7 +48,10 @@ a{
     font-weight: bold;
     padding: 10px 25px 10px 25px;
     width: 50px;
-    box-sizing: content-box;
+}
+
+.btn-blue{
+    
 }
 
 .btn:hover{
@@ -62,13 +60,13 @@ a{
 }
 
 /* images  */
-.card{
+ul li img{
     width: 200px;
     height: 250px;
     border-radius: 5px;
 }
 
-.titre1{
+h1{
     font-size: 46px;
     font-weight: bold;
     margin-bottom: 40px;
@@ -76,7 +74,7 @@ a{
     margin-left: 20px;
 }
 
-.text{
+p{
     line-height: 2; /* Par défaut en 'em',  */
     font-size: 26px;
     padding-bottom: 50px;
@@ -84,6 +82,4 @@ a{
     margin-left: 20px;
 }
 
-.bg-blue{
-    background-color: blue;
-}
+
